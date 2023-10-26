@@ -1,0 +1,177 @@
+Arabellan Dry:6
+Baldur's Grape:6
+Balor Ale:6
+Barrel-Aged Callidyrran:6
+Gulthmeran Reserve:6
+Highsun Liqueur:6
+Marsember Ice Wine:6
+Mermaid Whiskey:6
+Purple Dragon Blush:6
+Frostkiss Ale:4
+Bluecap:2
+Bagel:5
+Baguette:5
+Baldurian Mash:15
+Baldurian Seafood Stew:15
+Banana:3
+Beregost Blue Wedge:2
+Beregost Blue Wheel:5
+Berry Tart:7
+Biscuit:3
+Black Pudding Platter:12
+Bloodless Pig Meat:5
+Blushcap Mushroom:2
+Boiled Beholder Eyestalks:12
+Boiled Potato:4
+Brass City Scrangle:1
+Bunch of Horseradish:6
+Butter Bun:3
+Cabbage:7
+Carafe of Wine:1
+Carrot:3
+Charming Little Egg:3
+Chelo Khoresh:20
+Chevon:8
+Chicken Egg:3
+Chopped-Up Pig:5
+Cinnamon Roll:3
+Coffee:3
+Common Table-Wine:1
+Cormyrian Seafood Soup:7
+Courgette:7
+Dried Beef Sausage:3
+Dried Pork Sausage:3
+Dried Rope Sausage:3
+Dried Sausage Links:3
+Durinbold Cheese Wedge:2
+Esmeltar Red:1
+Esmeltar Red:3
+Everything Soup:5
+Farsea Marshwine:1
+Fire-Spiced Chicken Sausages:3
+Fish:4
+Fish (Big):10
+Fish Fillet:4
+Fish Head:1
+Fried Rat Skewer:3
+Frites:5
+Fruit Porridge:5
+Garlic:2
+Glowcap Mushroom:2
+Green Grapes:2
+Grilled Cormorant:10
+Grilled Miniature Giant Space Hamster:10
+Grilled Pork Belly:8
+Grilled Pork Leg:8
+Grilled Rothé Ribs:8
+Grilled Steak:8
+Gruel:1
+Haggis:21
+Half-Eaten Apple:1
+Head of Lettuce:7
+Headless Fish:4
+Hearty Dinner:15
+Honeyed Ham:10
+Horseradish:2
+Ithbank:1
+Kiwi:2
+Leg of Mutton:5
+Lemon:2
+Mashed Potatoes:5
+Milk:3
+Milk bowl:3
+Mixed Coffee:3
+Moulded Cheese Wedge:2
+Murky Stew:7
+Mushroom Soup:5
+Neogi Claws:10
+Neogi Rolls:10
+Neverwinter Stew:7
+Okta's Alternative Meal:1
+Onion:3
+Onion Soup:5
+Orange:3
+Pale Mint:2
+Pear:3
+Pig's Head:4
+Pizza:15
+Plum Fizz:1
+Pork Loin:5
+Pork Shoulder:10
+Potato:3
+Potato Porridge:5
+Potato Scone Platter:10
+Potato Wedges:5
+Poutine:20
+Puff Pastry Braid:5
+Pumpkin Soup:5
+Raspberry:1
+Raw Steak:10
+Red Apple:3
+Red Pepper:2
+Roast Beef Joint:20
+Roast Pork:15
+Roast Turkey:15
+Rolling Deck Rum:1
+Rosymorn Firewine:1
+Roughly-Cut Ham:5
+Salmon Pie:20
+Seafood Bouillabaisse:15
+Sourdough Bread:5
+Spicy Pork Sausage:3
+Spicy Sausage Links:3
+Spicy Shrimp Soup:7
+Spilled Mashed Potatoes:3
+Split Pea Soup:5
+Stale Bread:3
+Starburst Shandy:1
+Stout Stew:7
+Succulent Pear:3
+Sun-Dappled Paella:15
+Sunflower Seed Bun:5
+Sunmelon:10
+Sunmelon Half:5
+Sunmelon Piece:2
+Supply Pack:40
+Suspicious Meat:5
+Sweet Potato:3
+Tea:3
+Tomato:3
+Treacle Tart:7
+Turnip:3
+Vegetable Broth:7
+Vegetable Soup:5
+Walnut:2
+Waterdhavian Cheese Wedge:2
+Waterdhavian Cheese Wheel:5
+White Bread:5
+White Mushroom:2
+Whole Chicken:6
+Honey Comb:5
+Carnival Squash:12
+Pumpkin:12
+Purple Grapes:2
+Chultan Fireswill:1
+Fragrant Fungus Stew:10
+Lovely Malty Beer:1
+Mug of Beer:1
+Pitcher of Beer:1
+Whalebone Spiced:1
+Ashaba Dusk:1
+Blingdenstone Blush:1
+Monastery Firewine:1
+Tyche Pink:4
+Portal Sherry:4
+Amnian Dessert Wine:4
+Stagswift Tonic:4
+Suzailian Sweet:4
+Arkhen's Hoard:4
+Syl-Pashan Sup:4
+Bex's handmade cookies:3
+Eigersstor Noblerot:4
+Blackstaff:4
+Wine:4
+Carafe of Wine:4
+Carafe of Wine:4
+Owlbear Egg:40
+Goodberry (Item):1
