@@ -1,20 +1,12 @@
 import random
 import sys
+import util
 
-supplies = {}
 target = 40
 spacer = "----------------------------------"
 
-def load_inventory(path: str):
-    items = {}
-    with open(path, 'r') as reader:
-        for line in reader.readlines():
-            parts = line.split(':')
-            if parts != []: items[parts[0]] = int(parts[1])
-    return items
-
 def process_inv_file(path: str):
-    inv = load_inventory(path)
+    inv = util.load_inventory(path)
     print("Inventory: ")
     print(inv)
     print(spacer)
@@ -32,16 +24,17 @@ def process_inv(inventory: dict):
     
     for item, quantity in inv_sorted:
         for _ in range(quantity):
-            print(f"Evaluating item: {item}, Current supplies: {supplies_so_far}")
-            if supplies[item] + supplies_so_far <= target:
+            value = util.supplies[item]
+            print(f"Evaluating item: {item}, value {value}")
+            if util.supplies[item] + supplies_so_far <= target:
                 selections.append(item)
-                supplies_so_far += supplies[item]
+                supplies_so_far += value
                 print(f"Added {item} to selections. Current supplies: {supplies_so_far}")
 
                 if supplies_so_far == target:
                     return selections
             else:
-                if potential_overflow is None:
+                if potential_overflow is None or value < util.supplies[potential_overflow]:
                     potential_overflow = item
                 print(f"Skipped {item}. Current supplies: {supplies_so_far}")
                 continue
@@ -49,7 +42,7 @@ def process_inv(inventory: dict):
     # if we can't get to 40 without going over, add the item that would put us over
     if potential_overflow is not None:
         selections.append(potential_overflow)
-        supplies_so_far += supplies[item]
+        supplies_so_far += util.supplies[potential_overflow]
         print(f"Can't reach 40! Added {potential_overflow} as overflow. Current supplies: {supplies_so_far}")
         return selections
     
@@ -60,8 +53,28 @@ def process_inv(inventory: dict):
                 
  
 if __name__== "__main__": 
-    supplies = load_inventory("supplies.txt")
+    results = None
+    util.load_supplies()
     # first arg is the file name
-    chosen = process_inv_file(sys.argv[1])
+
+    if len(sys.argv) < 2:
+        print("""Help:\n\npython runner.py <args>\n\tArgument options:\n\t--file <path>: path to inventory file\n\t--random <max_items> <max_quantity>: generates random inventory""")
+        exit(1)
+
+    if sys.argv[1] == "--random":
+        if len(sys.argv) < 4:
+            print("Please provide the max number of unique items and max quantity of each item.")
+            exit(1)
+        inv = util.generate_random_inv(int(sys.argv[2]), int(sys.argv[3]))
+        results = process_inv(inv)
+
+    elif sys.argv[1] == "--file":
+        if len(sys.argv) < 3:
+            print("Please provide the path to the inventory file.")
+            exit(1)
+        results = process_inv_file(sys.argv[2])
+
     print(spacer)
-    print(chosen)
+    print("Results:")
+    print(results)
+    print(spacer)

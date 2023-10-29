@@ -9,11 +9,5 @@ class TestInventories(unittest.TestCase):
         self.assertEqual(sum_value(result), 14)
 
 
-def sum_value(inv: list):
-    sum = 0
-    for item in inv:
-        sum += runner.supplies[item]
-    return sum
-
 if __name__ == '__main__':
     unittest.main()
