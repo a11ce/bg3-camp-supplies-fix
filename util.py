@@ -35,3 +35,6 @@ def generate_random_inv(max_items: int, max_quantity: int):
         inv[item] = random.randint(1, max_quantity)
 
     return inv
+
+
+load_supplies()
