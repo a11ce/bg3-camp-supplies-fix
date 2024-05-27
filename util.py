@@ -2,11 +2,13 @@ import random
 
 supplies = None
 
+
 def load_supplies() -> dict:
     global supplies
     if supplies is None:
         supplies = load_inventory("supplies.txt")
     return supplies
+
 
 def load_inventory(path: str):
     items = {}
@@ -16,11 +18,13 @@ def load_inventory(path: str):
             if parts != []: items[parts[0]] = int(parts[1])
     return items
 
+
 def sum_value(inv: list):
     sum = 0
     for item in inv:
         sum += supplies[item]
     return sum
+
 
 def generate_random_inv(max_items: int, max_quantity: int):
     # pick random item from supplies and add it to inv with random quantity
